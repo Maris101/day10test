@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(75, 6, 6);
+  }
+  
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: rgb(241, 182, 241);
+    }
+  }
+
+
+#text1 {border: 2px solid rgb(48, 47, 121);
+    float: left;
+    width: 30%;
+    
+    }
+
+#text2 {border: 2px solid rgb(48, 47, 121);
+    float: right;
+    width: 30%;
+    
+    }
+
+#fish1  {border: 3px solid rgb(48, 47, 121);
+    float: right;
+    width: 100%;
+    
+    }
+
+.col-1 {width: 33.3%,}
+.col-2 {width: 33.3%;}
+.col-3 {width: 33.3%;}
+
+
+#formtest {border: 3px solid rgb(48, 47, 121);
+  
+  }
+
+#img2
+{border: 3px solid rgb(48, 47, 121);
+  float: right;
+  width: 100%;
+  
+  }
